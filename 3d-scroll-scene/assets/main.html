@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="images/favicon/favicon_earth.ico"
+      type="image/x-icon"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="css/main-style.css" />
+    <link rel="stylesheet" href="css/zeroing.css" />
+    <!-- js -->
+    <script src="js/app-scroll.js" defer></script>
+    <script src="js/app-audio.js" defer></script>
+    <!-- name -->
+    <title>3d-scroll-scene</title>
+  </head>
+  <body>
+    <!-- frames -->
+    <div class="container">
+      <section class="gallery">
+        <!-- 1st frame-title -->
+        <div class="frame frame_bg">
+          <div class="frame__content">
+            <h2 class="main-title">Amazing world</h2>
+          </div>
+        </div>
+
+        <!-- 2d frame-title -->
+        <div class="frame">
+          <div class="frame__content text-right">
+            <h3>Silence of the forests</h3>
+            <p>Forests teach people to understand the beautiful.</p>
+          </div>
+        </div>
+
+        <!-- 3d frame-photo -->
+        <div class="frame frame_bg">
+          <div class="frame__content">
+            <div
+              class="frame-media frame-media_left"
+              style="background-image: url(images/frames-photo/1.jpg)"
+              alt="Lake"
+            ></div>
+          </div>
+        </div>
+
+        <!-- 4th frame-video -->
+        <div class="frame frame_bg">
+          <div class="frame__content">
+            <video
+              class="frame-video"
+              src="video/video.mp4"
+              alt="Nature"
+              autoplay
+              loop
+              muted
+            ></video>
+          </div>
+        </div>
+
+        <!-- empty frames, for large padding between frames -->
+        <div class="frame"></div>
+
+        <!-- 5th frame-title -->
+        <div class="frame">
+          <div class="frame__content text-left">
+            <h3>Cold edges</h3>
+            <p>
+              Winter is not cold, but just a time of year. Cold in people's
+              souls...
+            </p>
+          </div>
+        </div>
+
+        <!-- 6th frame-photo -->
+        <div class="frame frame_bg">
+          <div class="frame__content">
+            <div
+              class="frame-media frame-media_right"
+              style="background-image: url(images/frames-photo/2.jpg)"
+              alt="Snowy mountains"
+            ></div>
+          </div>
+        </div>
+
+        <!-- 7th frame-title -->
+        <div class="frame">
+          <div class="frame__content text-right">
+            <h3>Pure planet</h3>
+            <p>
+              The earth is a huge theater in which the same tragedy is played
+              out under different names.
+            </p>
+          </div>
+        </div>
+
+        <!-- 8th frame-photo -->
+        <div class="frame frame_bg">
+          <div class="frame__content">
+            <div
+              class="frame-media frame-media_left"
+              style="background-image: url(images/frames-photo/3.jpg)"
+              alt="A tree in the middle of a lake"
+            ></div>
+          </div>
+        </div>
+
+        <!-- 9th frame-title -->
+        <div class="frame">
+          <div class="frame__content text-left">
+            <h3>Ask the mountains</h3>
+            <p>Far, far beyond the verbal mountains in the country.</p>
+          </div>
+        </div>
+
+        <!-- 10th frame-photo -->
+        <div class="frame frame_bg">
+          <div class="frame__content">
+            <div
+              class="frame-media frame-media_right"
+              style="background-image: url(images/frames-photo/4.jpg)"
+              alt="Mountains"
+            ></div>
+          </div>
+        </div>
+
+        <!-- 11th frame-title -->
+        <div class="frame">
+          <div class="frame__content text-right">
+            <h3>Earth element</h3>
+            <p>
+              There is no point in arguing with the elements. She still won`t
+              hear a damn thing about you, but she`ll easily smear you on the
+              stones.
+            </p>
+          </div>
+        </div>
+
+        <!-- 12th frame-photo -->
+        <div class="frame frame_bg">
+          <div class="frame__content">
+            <div
+              class="frame-media frame-media_left"
+              style="background-image: url(images/frames-photo/5.jpg)"
+              alt="Ocean"
+            ></div>
+          </div>
+        </div>
+
+        <!-- 13th frame-video -->
+        <div class="frame">
+          <div class="frame__content">
+            <video
+              class="frame-video"
+              src="video/video.mp4"
+              alt="Nature"
+              autoplay
+              loop
+              muted
+            ></video>
+          </div>
+        </div>
+
+        <!-- empty frames, for large padding between frames -->
+        <div class="frame"></div>
+        <div class="frame"></div>
+        <div class="frame"></div>
+
+        <!-- 14th frame-copyright -->
+        <div class="frame">
+          <div class="frame__content">
+            <h1 class="copyright">© e6lipse</h1>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- btn-audio -->
+    <div class="audio__content">
+      <img
+        class="soundbutton paused"
+        src="images/sound-gif/sound.gif"
+        alt="SoundButton"
+      />
+      <audio class="audio" src="audio/ambient.mp3" loop></audio>
+    </div>
+  </body>
+</html>
